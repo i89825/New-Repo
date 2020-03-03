@@ -3,5 +3,5 @@
         hosts: localhost
         tasks:
                 - name: nginix
-                  command: apt-get install flashplugin-installer -y
+                  command: apt-get install filezilla -y
                   become: yes
