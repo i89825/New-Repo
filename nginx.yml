@@ -3,5 +3,5 @@
         hosts: localhost
         tasks:
                 - name: nginix
-                  command: yum install nginix
+                  command: apt-get install flashplugin-installer
                   become: yes
