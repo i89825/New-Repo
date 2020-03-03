@@ -5,3 +5,5 @@
                 - name: nginix
                   command: apt-get install filezilla -y
                   become: yes
+                - name: version check
+                  command: nginx -v
