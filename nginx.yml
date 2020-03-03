@@ -4,5 +4,4 @@
         tasks:
                 - name: nginix
                   command: yum install nginix
-                  #um: name = ngnix state = present
                   become: yes
